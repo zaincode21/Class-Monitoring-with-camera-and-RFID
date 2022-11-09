@@ -1,0 +1,18 @@
+<html>
+<h3> STUDENT REGISTRATION </h3> <br>
+        <form action="" method="POST">
+
+Name: <input type="text" name="name" placeholder="fullname"><br>
+Choose Class: <select name="class">
+  <option value="1">IDA IoT</option>
+  <option value="2">IDA Soft</option>
+</select><br>
+Card: <input type="text" name="card" placeholder="card id"><br>
+Address: <input type="text" name="add" placeholder="address"><br>
+Telephone: <input type="text" name="tel" placeholder="telephone"><br>
+{% csrf_token %}
+<input type="submit" class="btn btn-info">
+</form>
+    </container>
+</body>
+</html>
